@@ -1,0 +1,25 @@
+.button {
+  background-color: rgb(5, 117, 182);
+  font-weight: bold;
+  color: #FFF;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin: 5px 10px 5px 0;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.button:active {
+  color: #fff;
+  background-color: #000;
+}
+
+.active {
+  background-color: #f90404;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
